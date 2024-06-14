@@ -1,5 +1,6 @@
 # Like_Girl V5.1.0
 
+> 没有开玩笑 我又更新了...
 
 - 演示地址：[演示](https://lovey.kikiw.cn)
 - 项目文档地址：[查看文档](https://blog.kikiw.cn/index.php/archives/52/)
