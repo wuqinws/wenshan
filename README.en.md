@@ -4,8 +4,8 @@
 
 - Demo address: [Demo](https://lovey.kikiw.cn)
 - project documents address: [see document] (https://blog.kikiw.cn/index.php/archives/52/)
-! [page] (https://img.gejiba.com/images/15eee53f2c5653ffaf9612ad37202252.png)
-! [background] (https://img.gejiba.com/images/fab78111e4f2d3ce9b240df39cf78e04.png)
+![Index](https://img.gejiba.com/images/15eee53f2c5653ffaf9612ad37202252.png)
+![Admin](https://img.gejiba.com/images/fab78111e4f2d3ce9b240df39cf78e04.png)
 
 ### Foreword
 
