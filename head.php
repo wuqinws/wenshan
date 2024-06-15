@@ -96,6 +96,7 @@ $Animation = $text['Animation'];
 <script src="../Style/jquery/jquery.min.js"></script>
 <script src="../Style/js/jquery.pjax.js" type="text/javascript"></script>
 <script src="../Style/pagelir/spotlight.bundle.js"></script>
+<script src="../Style/js/funlazy.min.js"></script>
 <script src="../Style/js/loading.js?LikeGirl=<?php echo $version ?>"></script>
 
 <?php
@@ -110,10 +111,6 @@ if ($diy['Pjaxkg'] == "1"):
         $(document).on('pjax:complete', function () {
             $(".love_img img,.lovelist img,.little_texts img").addClass("spotlight");
             NProgress.done();
-            $(".lovelist ul").hide();
-            $(".lovelist li").bind("click", function () {
-                $(this).next("ul").slideToggle(500).siblings("ul").slideUp(500);
-            })
             window.onscroll = function () {
                 let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
                 if (scrollTop > 500) {
@@ -134,6 +131,12 @@ if ($diy['Pjaxkg'] == "1"):
                     });
                 }
             }
+            FunLazy({
+                placeholder: "Style/img/Loading2.gif",
+                effect: "show",
+                strictLazyMode: false,
+                useErrorImagePlaceholder: "https://img.gejiba.com/images/dbc7f2562e051afc3c39f916689ba5f0.png"
+            })
         });
     </script>
 <?php endif; ?>
