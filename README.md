@@ -12,7 +12,7 @@
 > 如实在需要进行记录使用 可以考虑入手付费版（Pro）也当是支持作者的一份小项目 感谢
 
 - 演示地址：[LGNewUi (Demo)](https://loveli.kikiw.cn)
-- 项目文档地址：[LGNewUi (Demo)](https://blog.kikiw.cn/index.php/archives/65/)
+- 项目文档地址：[查看Pro版本文档介绍](https://blog.kikiw.cn/index.php/archives/65/)
 
 ![Pro 首页](https://img.gejiba.com/images/3e654d0be15c269857117e038b0eb1bd.jpg)
 
