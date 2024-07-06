@@ -2,10 +2,30 @@
 
 > 没有开玩笑 我又更新了...
 
-- 演示地址：[演示](https://lovey.kikiw.cn)
-- 项目文档地址：[查看文档](https://blog.kikiw.cn/index.php/archives/52/)
+- 演示地址：[LikeGirl v5.1.0 (Demo)](https://lovey.kikiw.cn)
+- 项目文档地址（文档非最新版）：[作者Blog](https://blog.kikiw.cn/index.php/archives/52/)
   ![首页](https://img.gejiba.com/images/15eee53f2c5653ffaf9612ad37202252.png)
   ![后台](https://img.gejiba.com/images/fab78111e4f2d3ce9b240df39cf78e04.png)
+
+### Pro付费版项目
+
+> 如实在需要进行记录使用 可以考虑入手付费版（Pro）也当是支持作者的一份小项目 感谢
+
+- 演示地址：[LGNewUi (Demo)](https://loveli.kikiw.cn)
+- 项目文档地址：[LGNewUi (Demo)](https://blog.kikiw.cn/index.php/archives/65/)
+
+![Pro 首页](https://img.gejiba.com/images/3e654d0be15c269857117e038b0eb1bd.jpg)
+
+![Pro 点点滴滴](https://img.gejiba.com/images/36bf4a7714a18685b5b88e3b4a357000.jpg)
+
+![Pro 祝福留言](https://img.gejiba.com/images/d7f321d2659ece245061a4ff0b5697ee.jpg)
+
+![Pro 恋爱相册](https://img.gejiba.com/images/998cd7d846f218134a9240fd1931b6b2.jpg)
+
+![Pro 恋爱事件](https://img.gejiba.com/images/45251cc86b614223b43927585f7dc1d6.jpg)
+
+![Pro 后台管理](https://img.gejiba.com/images/172c731c8ab43418708d60205172b830.jpg)
+
 
 ### 前言
 
@@ -31,6 +51,8 @@
 - 我这里需要感谢一下这么多喜欢LikeGirl程序的用户 也感谢大家的赞助与支持 我只是一个完全兴趣爱好的开发者 并不是什么大佬 尽我所能去更新
 - 最后感谢提交LikeGirl程序漏洞报告的用户 当时添加了我的微信将一个文档的报告给我发送过来 我又担心又感动的 因为程序可能有很多人是在使用的 万一真被不法分子入侵 隐私内容泄露这是不可逆的
 - 就因为这样 而且我个人觉得5.0版本还可以继续优化 只是我已经开发了 Pro版本是收费的 我又没有精力去维护这个5.0版本了 只想空闲时间投入到Pro版本开发 不想将时间花在开源版本里 因为开源的项目到最后能坚持下来的项目真是太少了
+
+
 
 ##   江湖路漫漫 我们有缘再见 （2024/06/14）
 
