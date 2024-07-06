@@ -127,6 +127,8 @@
 - 珍惜眼前人 欢迎使用Like_Girl V5.1.0（最终版）
 - 使用过程中如遇到bug或建议请反馈到邮箱 如超过`2小时`未回复可添加QQ好友进行咨询反馈
 - mail@kikiw.cn
-#### 如当前项目对你有所帮助 可扫码赞助
+
+> 如当前项目对你有所帮助 可扫码赞助
+
 ![收款码](https://img.gejiba.com/images/b5e058f6f3c2ce6bd9d3ab4205aa0bac.png) 
 
