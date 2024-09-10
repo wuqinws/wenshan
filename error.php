@@ -1,17 +1,3 @@
-<!--
- * @Version：Like Girl 5.1.0
- * @Author: Ki.
- * @Date: 2024-06-07 09:00:00
- * @LastEditTime: 2024-06-07
- * @Description: 花有重开日 人无再少年
- * @Document：https://blog.kikiw.cn/index.php/archives/52/
- * @Copyright (c) 2024 by Ki All Rights Reserved. 
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Message：开发不易 版权信息请保留 
--->
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <?php
@@ -143,12 +129,6 @@ $stmt->fetch();
 </div>
 <!-- end container -->
 </div>
-<!-- end page -->
-
-<footer class="footer footer-alt">
-    Copyright © 2022 Ki. && <a href="https://blog.kikiw.cn/index.php/archives/24/" target="_blank">Like_Girl</a> All
-    Rights Reserved.
-</footer>
 
 <!-- App js -->
 <script src="/admin/assets/js/app.min.js"></script>

@@ -1,19 +1,3 @@
-<!-- 
- * @Page：异步Ajax请求处理内容新增修改
- * @Version：Like Girl 5.1.0
- * @Author: Ki.
- * @Date: 2024-06-07 09:00:00
- * @LastEditTime: 2024-06-07
- * @Description: 花有重开日 人无再少年
- * @Document：https://blog.kikiw.cn/index.php/archives/52/
- * @Copyright (c) 2024 by Ki All Rights Reserved. 
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Message：开发不易 版权信息请保留 （删除/更改版权的无耻之人请勿使用 查到一个挂一个）
- * @Message：开发不易 版权信息请保留 （删除/更改版权的无耻之人请勿使用 查到一个挂一个）
- * @Message：开发不易 版权信息请保留 （删除/更改版权的无耻之人请勿使用 查到一个挂一个）
- -->
 <?php
 session_start();
 $file = $_SERVER['PHP_SELF'];
@@ -219,9 +203,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("文章修改成功！", "Like_Girl");
-                    $('#littleupda').text('修改中...');
                     $("#littleupda").attr("disabled", "disabled");
-                    setInterval("window.location.href='littleSet.php'", 1000);
+                    window.location.href = 'littleSet.php';
                 } else if (res == 0) {
                     toastr["error"]("文章修改失败！", "Like_Girl");
                 }
@@ -249,9 +232,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("新增文章成功！", "Like_Girl");
-                    $('#littleAddPost').text('发布中...');
                     $("#littleAddPost").attr("disabled", "disabled");
-                    setInterval("window.location.href='littleSet.php'", 1000);
+                    window.location.href='littleSet.php'
                 } else if (res == 0) {
                     toastr["error"]("新增文章失败！", "Like_Girl");
                 }
@@ -281,9 +263,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("相册修改成功！", "Like_Girl");
-                    $('#ImgUpdaPost').text('修改中...');
                     $("#ImgUpdaPost").attr("disabled", "disabled");
-                    setInterval("window.location.href='loveImgSet.php'", 1000);
+                    window.location.href='loveImgSet.php'
                 } else if (res == 0) {
                     toastr["error"]("相册修改失败！", "Like_Girl");
                 }
@@ -311,9 +292,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("新增相册成功！", "Like_Girl");
-                    $('#ImgUpdaPost').text('新增中...');
                     $("#ImgUpdaPost").attr("disabled", "disabled");
-                    setInterval("window.location.href='loveImgSet.php'", 1000);
+                    window.location.href='loveImgSet.php'
                 } else if (res == 0) {
                     toastr["error"]("新增相册失败！", "Like_Girl");
                 }
@@ -341,9 +321,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("新增事件成功！", "Like_Girl");
-                    $('#listaddPost').text('新增中...');
                     $("#listaddPost").attr("disabled", "disabled");
-                    setInterval("window.location.href='lovelist.php'", 1000);
+                    window.location.href='lovelist.php'
                 } else if (res == 0) {
                     toastr["error"]("新增事件失败！", "Like_Girl");
                 }
@@ -368,9 +347,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("IP封禁成功！", "Like_Girl");
-                    $('#listupda').text('提交中...');
                     $("#listupda").attr("disabled", "disabled");
-                    setInterval("window.location.href='ipList.php'", 1000);
+                    window.location.href='ipList.php'
                 } else if (res == 0) {
                     toastr["error"]("IP封禁失败！", "Like_Girl");
                 }
@@ -399,9 +377,8 @@ if (!isset($_SESSION['loginadmin']) && $_SESSION['loginadmin'] == '') {
             success: function (res) {
                 if (res == 1) {
                     toastr["success"]("修改事件成功！", "Like_Girl");
-                    $('#listupda').text('修改中...');
                     $("#listupda").attr("disabled", "disabled");
-                    setInterval("window.location.href='lovelist.php'", 1000);
+                    window.location.href='lovelist.php'
                 } else if (res == 0) {
                     toastr["error"]("修改事件失败！", "Like_Girl");
                 }

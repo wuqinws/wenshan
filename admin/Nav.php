@@ -1,18 +1,3 @@
-<!--
- * @Version：Like Girl 5.1.0
- * @Author: Ki.
- * @Date: 2024-06-07 09:00:00
- * @LastEditTime: 2024-06-07
- * @Description: 花有重开日 人无再少年
- * @Document：https://blog.kikiw.cn/index.php/archives/52/
- * @Copyright (c) 2024 by Ki All Rights Reserved. 
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Warning：禁止以任何方式出售本项目 如有发现一切后果自行负责
- * @Message：开发不易 版权信息请保留 (更改版权可耻 请勿使用本程序)
--->
-
-
 <?php
 include ($_SERVER['DOCUMENT_ROOT'] . '/ipjc.php');
 error_reporting(0);
@@ -269,30 +254,6 @@ if (mysqli_num_rows($result)) {
                             <span class="menu-arrow"></span>
                         </a>
                     </li>
-
-                    <li class="side-nav-item">
-                        <a href="/admin/Like_Girl.php" class="side-nav-link">
-                            <i class="dripicons-information"></i>
-                            <span> 关于Like Girl</span>
-                            <span class="menu-arrow"></span>
-                        </a>
-                    </li>
-                </ul>
-
-
-                <!-- Help Box -->
-                <div class="help-box text-center">
-                    <a href="javascript: void(0);" class="float-right close-btn text-body">
-                        <i class="mdi mdi-close"></i>
-                    </a>
-                    <img src="assets/images/help-icon.svg" height="90" alt="Helper Icon Image" />
-                    <h5 class="mt-3">Like_Girl V5.1.0</h5>
-                    <p class="mb-3">花有重开日 人无再少年</p>
-                    <a href="https://blog.kikiw.cn/index.php/archives/65/" target="_blank" class="btn btn-outline-primary btn-sm">购买Pro版本</a>
-                </div>
-                <!-- end Help Box -->
-                <!-- End Sidebar -->
-
 
                 <div class="clearfix"></div>
                 <!-- Sidebar -left -->

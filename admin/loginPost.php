@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 if ($USER == $Login_user) {
     if ($PW == $Login_pw) {
         $_SESSION['loginadmin'] = $USER;
-        echo "<script>alert('登录成功 欢迎进入小站后台管理页面！');location.href = '../admin/index.php';</script>";
+        header("Location: ../admin/index.php");
         exit;
     } else {
         //密码错误
