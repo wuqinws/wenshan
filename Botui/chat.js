@@ -109,7 +109,7 @@ var other = function () {
     }).then(function (res) {
         return botui.message.bot({
             delay: 1500,
-            content: "点点滴滴 little💑"
+            content: "恋爱随笔 little💑"
         })
     }).then(function (res) {
         return botui.message.bot({

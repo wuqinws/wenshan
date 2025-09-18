@@ -123,12 +123,6 @@ if ($file){
 </div>
 <!-- end container -->
 </div>
-<!-- end page -->
-
-<footer class="footer footer-alt">
-    Copyright © 2022-<?php echo date("Y") ?> Ki. && <a href="https://blog.kikiw.cn/index.php/archives/52/" target="_blank">Like_Girl</a> All
-    Rights Reserved.
-</footer>
 
 <!-- App js -->
 <script src="/admin/assets/js/app.min.js"></script>

@@ -1,10 +1,3 @@
-/**
- * Spotlight.js v0.5.9 (CDN)
- * Copyright 2019 Nextapps GmbH
- * Author: Thomas Wilkerling
- * Licence: Apache-2.0
- * https://github.com/nextapps-de/spotlight
- */
 (function(){'use strict';var aa={};function ba(a){for(var b=a.classList,c={},d=0;d<b.length;d++)c[b[d]]=1;a.a=c;a.c=b}function e(a,b){a=g(a);var c="string"===typeof b;if(a.length)for(var d=0;d<a.length;d++)(c?ca:da)(a[d],b);else(c?ca:da)(a,b)}function da(a,b){for(var c=0;c<b.length;c++)ca(a,b[c])}function ca(a,b){a.a||ba(a);a.a[b]||(a.a[b]=1,a.c.add(b))}function h(a,b){a=g(a);var c="string"===typeof b;if(a.length)for(var d=0;d<a.length;d++)(c?ea:fa)(a[d],b);else(c?ea:fa)(a,b)}
 function fa(a,b){for(var c=0;c<b.length;c++)ea(a,b[c])}function ea(a,b){a.a||ba(a);a.a[b]&&(a.a[b]=0,a.c.remove(b))}function k(a,b,c){a=g(a);var d="string"!==typeof b&&Object.keys(b);if(a.length)for(var f=0;f<a.length;f++)(d?ha:ia)(a[f],b,d||c,void 0);else(d?ha:ia)(a,b,d||c,void 0)}function ha(a,b,c,d){for(var f=0;f<c.length;f++){var p=c[f];ia(a,p,b[p],d)}}
 function ia(a,b,c,d){var f=a.f;f||(a.f=f={});f[b]!==c&&(f[b]=c,(a.g||(a.g=a.style)).setProperty(aa[b]||(aa[b]=b.replace(/([a-z])([A-Z])/g,"$1-$2").toLowerCase()),c,d?"important":null))}var ja=0;function l(a,b,c){k(a,"transition","none");k(a,b,c);ja||(ja=a.clientTop&&0);k(a,"transition","")}function ka(a,b){b||(b="");a=g(a);if(a.length)for(var c=0;c<a.length;c++){var d=a[c],f=b;d.b!==f&&(d.b=f,d.textContent=f)}else a.b!==b&&(a.b=b,a.textContent=b)}

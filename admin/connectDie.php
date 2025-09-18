@@ -5,8 +5,6 @@
     <meta charset="utf-8"/>
     <title>数据库连接失败</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Like Girl 5.1.0" name="description"/>
-    <meta content="Coderthemes" name="author"/>
 
     <!-- App css -->
     <link href="/admin/assets/css/icons.min.css" rel="stylesheet" type="text/css"/>

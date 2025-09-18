@@ -24,8 +24,6 @@ $Animation = $text['Animation'];
 
 <script>
 
-    console.log("%c Q & V | 3439780232", "color:#fff;background:#000;padding:8px 15px;font-weight: 700;border-radius:15px");
-    console.log("%c Like Girl 5.1.0 | Powered by Ki", "color:#fff;font-weight: 700;background:linear-gradient(270deg,#986fee,#8695e6,#68b7dd,#18d7d3);padding:8px 15px;border-radius:15px");
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
         BirthDay = new Date("<?php echo $text['startTime'] ?>");
@@ -57,10 +55,6 @@ $Animation = $text['Animation'];
     show_date_time();
 </script>
 <link rel="shortcut icon" href="/favicon.ico" />
-<meta name="keywords"
-    content="<?php echo $text['title'] ?>,Like Girl 5.1.0,LGNeUi,情侣小站,开源情侣网站,PHP情侣网站,情侣记录,情侣网站,情侣项目,情侣小窝,Love,LikeGirl,Ki,PHP情侣小站,情侣小站使用教程,情侣小站使用文档">
-<meta name="discription" content="<?php echo $text['writing'] ?> - Like Girl 5.1.0">
-<meta name="author" content="Ki">
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">

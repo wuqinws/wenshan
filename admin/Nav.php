@@ -73,7 +73,7 @@ if (mysqli_num_rows($result)) {
     $res = mysqli_query($connect, $nub);
     $leav = mysqli_fetch_array($res);
     $shu = $leav['shu'];
-    //点点滴滴
+    //恋爱随笔
     $dian = "select count(id) as dian from article";
     $resdian = mysqli_query($connect, $dian);
     $didi = mysqli_fetch_array($resdian);
@@ -207,7 +207,7 @@ if (mysqli_num_rows($result)) {
                     <li class="side-nav-item">
                         <a href="/admin/littleSet.php" class="side-nav-link">
                             <i class="dripicons-copy"></i>
-                            <span> 点点滴滴
+                            <span> 恋爱随笔
                                 <span class="badge badge-danger float-right"><?php echo $diannub ?></span>
                             </span>
                         </a>

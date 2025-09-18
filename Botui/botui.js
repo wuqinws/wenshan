@@ -1,12 +1,3 @@
-/*
- * botui 0.3.9
- * A JS library to build the UI for your bot
- * https://botui.org
- *
- * Copyright 2020, Moin Uddin
- * Released under the MIT license.
-*/
-
 (function (root, factory) {
   "use strict";
   if (typeof define === 'function' && define.amd) {

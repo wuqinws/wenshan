@@ -17,7 +17,7 @@ $resarticle = mysqli_query($connect, $article);
         <div class="card">
             <div class="card-body">
 
-                <h4 class="header-title mb-3 size_18">点点滴滴
+                <h4 class="header-title mb-3 size_18">恋爱随笔
                     <a class="fabu" href="/admin/littleAdd.php">
                         <button type="button" class="btn btn-success btn-sm right_10">
                             <i class="mdi mdi-circle-edit-outline"></i>新增
